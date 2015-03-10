@@ -10,7 +10,7 @@ Provide an input in plain text to this function and it will return a Netstring. 
 * **Example**
 
     
-```
+```arduino
 String netstring = encodedNetstring("send this as a netstring");
 //nestring == 24:send this as a netstring,
 ```
@@ -20,7 +20,7 @@ Provide an input encoded as a Netstring and if the Netstring is valid, this func
 
 * **Example**
 
-```
+```arduino
 String plainInput = decodedNetstring("11:*@*#(SADASD,")
 // plainInput == "*@*#(SADASD"
 ```
