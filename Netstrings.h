@@ -9,9 +9,9 @@
 #include "Arduino.h"
 
 /* encodedNetstring accepts a String as an argument and returns the equivalent Netstring. If an empty string is used, then the string "error" is returned */
-String encodedNetstring(String input);
+String encodedNetstring(String plainInput);
 
 /* decodedNetstring accepts a Nestring as an argument (WITHOUT the trailing ",") and returns the equivalent string. If an invalid Netstring is used, then the string "error" is returned */
-String decodedNetstring(String input);
+String decodedNetstring(String netstring);
 
 #endif
