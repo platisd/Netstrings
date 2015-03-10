@@ -1,0 +1,2 @@
+encodedNetstring	KEYWORD2
+decodedNetstring	KEYWORD2
