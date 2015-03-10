@@ -1,4 +1,4 @@
-/* Read a string from Serial (do NOT send a new line after it) and print out the equivalent string it contains
+/* Read a Netstring from Serial (do NOT send a new line after it) and print out the string it contains
 "error" is printed when the netstring supplied is empty.
 
 Example
