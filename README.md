@@ -1,5 +1,6 @@
 # Netstrings
-A simple Arduino library to decode and encode Netstrings by Dimitris Platis. C++ version included in /cpp by David Jensen.
+A simple Arduino library to decode and encode Netstrings by Dimitris Platis.
+C++ version included in /cpp by David Jensen.
 
 ## Introduction
 This library allows easy decoding and encoding of Netstrings. For more information on Netstrings refer to http://cr.yp.to/proto/netstrings.txt
